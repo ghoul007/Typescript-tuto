@@ -1,0 +1,23 @@
+{
+  "name": "typescript-tuto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghoul007/Typescript-tuto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghoul007/Typescript-tuto/issues"
+  },
+  "homepage": "https://github.com/ghoul007/Typescript-tuto#readme",
+  "dependencies": {
+    "typescript": "^3.6.3"
+  }
+}
