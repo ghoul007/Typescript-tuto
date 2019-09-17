@@ -23,3 +23,11 @@ var vvv = {
     num: 1,
     num1: 2
 };
+function createSquare(config) {
+    return {
+        color: config.color || '',
+        area: config.width || 1,
+    };
+}
+// type assertion
+var mySquare = createSquare({ a: "red", width: 100 });

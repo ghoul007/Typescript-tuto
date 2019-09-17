@@ -73,3 +73,20 @@ let vvv: Test1 = {
     num: 1,
     num1: 2
 }
+
+
+
+
+interface SquareConfig {
+    color?: string;
+    width?: number;
+}
+
+function createSquare(config: SquareConfig): { color: string; area: number } {
+    return {
+        color: config.color || '',
+        area: config.width || 1,
+    };
+}
+// type assertion
+let mySquare = createSquare(<SquareConfig>{ a: "red", width: 100 });
